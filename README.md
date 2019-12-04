@@ -7,7 +7,9 @@ Este projeto é uma biblioteca que retorna links em arquivos Markdown(.md). Pode
 Um requisito para utilizar esta biblioteca é ter o NodeJS instalado.
 Execute este comando no terminal:
 
-`$ npm install AndrezaAmorim/SAP003-md-links`
+````sh
+$ npm install AndrezaAmorim/SAP003-md-links
+````
 
 ## Como Utilizar
 
@@ -29,9 +31,18 @@ mdLinks("./example.md")
 
 Deve ser executado da seguinte maneira no terminal:
 
-`md-links <path-to-file> options`
+````sh
+md-links <path-to-file> options
+````
 
-Por Exemplo: 
+Por exemplo: 
+
+```sh
+$ md-links example.md
+```
+
+Caso o arquivo esteja dentro de uma pasta:
+
 ```sh
 $ md-links ./some/example.md
 ```
