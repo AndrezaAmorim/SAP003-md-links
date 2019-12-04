@@ -56,5 +56,7 @@ http://cinemark.com/ Site Cinemark
 ```
 Exemplo de retorno inválido:
 
-* Arquivo não encontrado
-* Arquivo não contêm links
+```sh
+Arquivo não encontrado
+Arquivo não contêm links
+```
